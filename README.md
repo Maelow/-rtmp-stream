@@ -8,7 +8,7 @@ Done!!!
 
 **Options**
 
-sh ./script.sh "set audio sampling rate (in Hz)" "input Set the number of audio channels" "Set the frame size" "YOUTUBE_KEY"
+`sh ./script.sh "set audio sampling rate (in Hz)" "input Set the number of audio channels" "Set the frame size" "YOUTUBE_KEY"`
 
 
 **More option**
