@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 AUDIOHZ=$1
 ACH=$2
 VFRAME=$3
