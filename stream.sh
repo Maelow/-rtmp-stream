@@ -11,7 +11,7 @@ KEY=$5
 
     avconv \
         -f alsa -ar "$AUDIOHZ" -ac "$ACH" -f s16le -i hw:1,0  \
-        -codec:a \
+#        -codec:a \
         -f video4linux2 -framerate "$VFRAME" -video_size "$VSIZE" -i "$VINPUT" \
-        -codec:v \
+ #       -codec:v \
         -f flv "$URL/$KEY" \
