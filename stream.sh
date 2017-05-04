@@ -1,4 +1,7 @@
 #!/bin/bash
+timestamp=$( date +%T-%D )
+echo -e "\n$timestamp" >> ./stream.log
+exec >> ./stream.log 2>&1
 
 AUDIOHZ=$1
 ACH=$2
